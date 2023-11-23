@@ -2742,7 +2742,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #3d0459;
+  background: #4b4646;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2791,4 +2791,11 @@ header.header {
 }
 .sub-menu .menu-item {
   display: inline-block;
+}
+body {
+  background-image: url("/images/arthrr.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
 }
